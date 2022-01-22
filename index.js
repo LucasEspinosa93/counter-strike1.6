@@ -1,3 +1,3 @@
-const apretar = () => {
-    console.log("hola");
+const procesar = () => {
+    alert("Funcionalidad en desarrollo...");
 } 
