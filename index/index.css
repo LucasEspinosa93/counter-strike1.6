@@ -1,0 +1,101 @@
+.divpadre{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* DIV 1 */
+
+.cuerpo-div1 {
+    color: rgb(164, 204, 255);
+    width: 250px;
+    background-color: rgb(0, 0, 0); 
+    font-size: 13px;
+    border: solid 1px;
+    border-color: rgb(53, 157, 255);
+    border-radius: 10px;
+    border-left: 0px;
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.tablainfo {
+    list-style: none;
+    margin: 25px;
+}
+
+/* DIV 2 */
+
+.cuerpo-div2 {
+    width: 1000px;
+    color: rgb(190, 190, 190);
+    background-color: rgb(0, 0, 0);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo-div2-hijo {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.h2titulos {
+    border-bottom: solid 1px;
+    border-color: rgb(53, 157, 255);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.parrafos {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* DIV 3 */
+
+.cuerpo-div3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.img {
+    height: 300px;
+    width: 450px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    border: solid 1px;
+    border-color: rgb(53, 157, 255);
+    border-radius: 10px;
+}
+
+/* ANCHOR MAPAS */
+
+.amaps {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(113, 144, 168);
+    border: solid;
+    border-left: none;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.amaps:hover {
+    border: solid;
+    color: rgb(86, 176, 255);
+    border-color: rgb(65, 142, 194);
+    border-width: 1px;
+    border-left: none;
+  }

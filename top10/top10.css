@@ -1,0 +1,41 @@
+/* DIV 2 */
+.divpremio {
+    border-bottom: solid 1px;
+    border-color: rgb(65, 142, 194);
+    padding: 20px;   
+}
+
+.imgplayer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.player {
+    width: 250px;
+    height: 190px;
+    margin-left: 50px;
+    border: solid 1px;
+    border-color: rgb(26, 26, 26);
+    border-radius: 5px;
+}
+
+/* DIV 3 */
+
+.top100 {    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.p100 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.parrafos {
+    margin-left: 15px;
+}
